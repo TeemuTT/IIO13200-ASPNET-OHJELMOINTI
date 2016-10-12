@@ -63,6 +63,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Lotto", "Lotto\", "{670E0A7
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "58614"
+		SlnRelativePath = "Lotto\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Kalenteri", "Kalenteri\", "{221F8B23-DD14-402B-AF6D-194E23461BAF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58901"
+		Debug.AspNetCompiler.PhysicalPath = "Kalenteri\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58901\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58901"
+		Release.AspNetCompiler.PhysicalPath = "Kalenteri\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58901\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58901"
 	EndProjectSection
 EndProject
 Global
@@ -83,6 +104,10 @@ Global
 		{670E0A70-EB30-496D-B407-E46AB787BD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{670E0A70-EB30-496D-B407-E46AB787BD89}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{670E0A70-EB30-496D-B407-E46AB787BD89}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{221F8B23-DD14-402B-AF6D-194E23461BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221F8B23-DD14-402B-AF6D-194E23461BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221F8B23-DD14-402B-AF6D-194E23461BAF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{221F8B23-DD14-402B-AF6D-194E23461BAF}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

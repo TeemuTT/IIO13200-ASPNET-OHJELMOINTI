@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>AsiakastiedotSQL</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <asp:ContentPlaceHolder id="header" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder id="main" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+            <asp:ContentPlaceHolder id="footer" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>

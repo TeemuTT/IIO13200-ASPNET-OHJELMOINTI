@@ -24,7 +24,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Saitti", "Saitti\", "{3E07E
 		SlnRelativePath = "Saitti\"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Ikkunatarjous(1)", "Ikkunatarjous\", "{DFCE5B8A-D078-4FE7-91F5-1451C29C25D4}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Ikkunatarjous", "Ikkunatarjous\", "{DFCE5B8A-D078-4FE7-91F5-1451C29C25D4}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_58396"
@@ -84,6 +84,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Kalenteri", "Kalenteri\", "
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "58901"
+		SlnRelativePath = "Kalenteri\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AsiakastiedotSQL", "AsiakastiedotSQL\", "{D6DE3470-4AB4-4FE0-9894-BACBDBFEECBA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59333"
+		Debug.AspNetCompiler.PhysicalPath = "AsiakastiedotSQL\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59333\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59333"
+		Release.AspNetCompiler.PhysicalPath = "AsiakastiedotSQL\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59333\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59333"
 	EndProjectSection
 EndProject
 Global
@@ -108,6 +129,10 @@ Global
 		{221F8B23-DD14-402B-AF6D-194E23461BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{221F8B23-DD14-402B-AF6D-194E23461BAF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{221F8B23-DD14-402B-AF6D-194E23461BAF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D6DE3470-4AB4-4FE0-9894-BACBDBFEECBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DE3470-4AB4-4FE0-9894-BACBDBFEECBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DE3470-4AB4-4FE0-9894-BACBDBFEECBA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DE3470-4AB4-4FE0-9894-BACBDBFEECBA}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

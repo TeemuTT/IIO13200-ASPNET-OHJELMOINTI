@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="TestDBDemoxOy.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style>
@@ -34,26 +34,13 @@
         }
     </style>
 </asp:Content>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="header" Runat="Server">
-    <h1>AsiakastiedotSQL - SqlDataSourcella</h1>
-    <asp:HyperLink runat="server" NavigateUrl="~/TestDBDemoxOy.aspx" Text="Käytä DBBdemoxOy-luokkaa" />
+    <h1>AsiakastiedotSQL - DBDemoxOy luokalla</h1>
+    <asp:hyperlink runat="server" navigateurl="~/index.aspx" text="Käytä SqlDataSource-luokkaa" />
 </asp:Content>
-
 <asp:Content ID="Content3" ContentPlaceHolderID="main" Runat="Server">
-
-    <asp:GridView ID="GridView1" runat="server" DataSourceID="SqlDataSource1"></asp:GridView>
-
-    <asp:SqlDataSource
-        ID="SqlDataSource1"
-        runat="server"
-        DataSourceMode="DataSet"
-        ConnectionString="<%$ ConnectionStrings:Asiakkaat %>"
-        SelectCommand="SELECT astunnus, asnimi, yhteyshlo, postitmp FROM asiakas">
-    </asp:SqlDataSource>
-
+    <asp:GridView ID="GridView1" runat="server"></asp:GridView>
 </asp:Content>
-
 <asp:Content ID="Content4" ContentPlaceHolderID="footer" Runat="Server">
     Teemu Tuomela 2016
 </asp:Content>

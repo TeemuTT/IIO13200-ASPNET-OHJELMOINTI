@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.master.cs" Inherits="Levykauppa.masterpage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>LevykauppaX</title>
+
+    <%-- Sisältösivujen omat tyylit. --%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <%-- Master tyylit --%>
+    <style>
+        * {
+            font-family: 'Lucida Sans';
+        }
+
+        .header {
+            font-size: xx-large;
+            font-weight: bold;
+            text-align: center;
+            padding: 2em;
+            background-color: olivedrab;
+        }
+
+        .footer {
+            font-size: large;
+            text-align: center;
+            background-color: burlywood;
+            padding: 2em;
+        }
+
+        .content {
+            margin: 1em;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="header">
+            LevykauppaX
+        </div>
+
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="footer">
+            Teemu Tuomela H8705
+        </div>
+    </form>
+</body>
+</html>
